@@ -50,7 +50,7 @@ private:
         else if (index == end)
         {
             root->left = genTree(pTree, inorder, start, end - 1);
-            root->right == NULL;
+            root->right = NULL;
         }
         else
         {
